@@ -2889,6 +2889,10 @@ input, select, textarea {
 					padding: 2em;
 				}
 
+				.image.main {
+					height: 20.5em;
+				}
+
 				#header > footer {
 					padding: 1.5em;
 				}
@@ -2921,6 +2925,10 @@ input, select, textarea {
 
 			#header {
 				width: 20em;
+			}
+
+			.image.main {
+				height: 22.25em;
 			}
 
 		/* Wrapper */
