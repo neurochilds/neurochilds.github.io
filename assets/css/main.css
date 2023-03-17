@@ -2814,6 +2814,9 @@ input, select, textarea {
 						border-top: 0;
 					}
 
+
+
+
 /* Wrapper */
 
 	#wrapper {
@@ -3321,3 +3324,8 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* #publications-and-theses{
+	border-bottom: solid 2px #55c1a4;
+} */
