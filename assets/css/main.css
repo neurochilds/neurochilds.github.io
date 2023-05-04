@@ -2679,6 +2679,10 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+			.features article .inner h4 {
+				margin-top: 0.25em;
+			}
+
 /* Header */
 
 	#header {
