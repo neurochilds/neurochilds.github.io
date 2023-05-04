@@ -1,2 +1,2 @@
-# https://www.tomchilds.com
+# https://tomchilds.com
 My personal website.
