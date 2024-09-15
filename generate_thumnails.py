@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-def create_thumbnails_in_subfolders(base_dir, size=(1000, 750)):
+def create_thumbnails_in_subfolders(base_dir, size=(1200, 900)):
     # Walk through each directory in the base directory
     for root, dirs, files in os.walk(base_dir):
         # Skip processing if the current directory is a 'thumbs' folder
