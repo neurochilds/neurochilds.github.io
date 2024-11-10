@@ -2230,6 +2230,30 @@ input, select, textarea {
 	padding-bottom: 0;
   }
 
+/* Flex container for the main layout */
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+/* Each thumbnail in a fixed width column */
+#main .thumb {
+    width: 33.33%; /* Forces three columns on larger screens */
+    box-sizing: border-box;
+    padding: 0.5em;
+}
 
-  
+/* Adjust images within thumbnails */
+#main .thumb img {
+    width: 100%; /* Fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 650px) { /* Adjust breakpoint as needed */
+    #main .thumb {
+        width: 100%; /* Switch to a single column */
+    }
+}
